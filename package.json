@@ -1,0 +1,22 @@
+{
+  "name": "thusdesign-wechat",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ThusDesign WeChat remote channel: Tencent iLink protocol plus a thin product adapter.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./status": "./src/status.ts",
+    "./copy": "./src/copy.ts",
+    "./protocol": "./src/protocol/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "devDependencies": {
+    "@types/node": "24.9.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "license": "MIT"
+}
